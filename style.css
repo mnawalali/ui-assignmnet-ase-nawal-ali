@@ -31,6 +31,7 @@
 .nav-link {
 
   font-family: 'Inter', sans-serif;
+  cursor: pointer
 }
 
 .nav-form {
@@ -101,6 +102,7 @@
   padding: 1rem 0.9rem;
   border-radius: 0.4rem;
   font-weight: bold;
+  cursor: pointer
 }
 
 .btn-primary-5 {
@@ -111,6 +113,7 @@
   padding: 0.5rem 0.5rem;
   border-radius: 0.4rem;
   font-weight: bold;
+  cursor: pointer
 }
 
 .btn-secondary {
@@ -121,6 +124,7 @@
   padding: 1rem 0.9rem;
   border-radius: 0.4rem;
   font-weight: bold;
+  cursor: pointer
 }
 
 .nav-btns {
@@ -142,7 +146,7 @@
 .header {
   background-image:
     linear-gradient(to bottom, #02030c85, #08101d),
-    url(HeaderBackground.png);
+    url(HeaderBackground-min.png);
   background-size: cover;
   padding-bottom: 5rem;
   border-bottom-left-radius: 80% 15%;
@@ -253,6 +257,7 @@
   align-items: center;
   justify-content: center;
   column-gap: 0.5rem;
+  cursor: pointer;
 }
 
 .card-heading {
@@ -270,6 +275,10 @@
 
 .mx-1 {
   margin: 0 1rem;
+}
+
+.my-1 {
+  margin: 1rem 0;
 }
 
 .mb-1 {
@@ -330,6 +339,14 @@
   font-weight: 700;
 }
 
+.weight-9{
+  font-weight: 900;
+}
+
+.font-size-1{
+font-size: 1.2rem;
+}
+
 .jst-cent {
   justify-content: center;
 }
@@ -344,6 +361,7 @@
 
 .product-feat-footer {
   gap: 1rem;
+  cursor: pointer;
 }
 
 .product-feat-heading {
@@ -399,6 +417,10 @@
 .card-line {
   width: 90%;
   border: 1px solid #f4f5f7;
+}
+
+.rep{
+  display: none;
 }
 
 .blog-col {
@@ -466,6 +488,14 @@
 .footer-icons {
   width: 2rem;
   height: 2rem;
+}
+
+.footer-link{
+  text-decoration: none;
+}
+
+.link-decor{
+  text-decoration: none;
 }
 
 @media screen and (max-width: 1600px) {
@@ -623,7 +653,15 @@
   }
 
   .blog-descr-img {
-    width: 80%;
+    width: 95%;
+  }
+
+  .rep{
+    display: block;
+  }
+
+  .orig{
+    display: none;
   }
 
   .blog-col {
