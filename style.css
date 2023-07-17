@@ -611,7 +611,7 @@ font-size: 1.2rem;
   }
 
   .brand-col-2 {
-    width: 95%;
+    width: 100%;
   }
 
   /* footer */
@@ -632,12 +632,21 @@ font-size: 1.2rem;
   .footer-form {
     width: 100%;
   }
+
+  .brand-col-des{
+    display: none;
+  }
+
+  .brand-container{
+    padding: 2rem;
+  }
 }
 
 @media screen and (max-width: 906px) {
   .header-content {
     width: 98%;
   }
+
 
 }
 
@@ -721,4 +730,8 @@ font-size: 1.2rem;
  .resize{
   font-size: 1.8rem;
  }
+
+ .brand-container{
+  padding: 1rem;
+}
 }
