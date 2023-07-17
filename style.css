@@ -146,7 +146,7 @@
 .header {
   background-image:
     linear-gradient(to bottom, #02030c85, #08101d),
-    url(HeaderBackground.png);
+    url(HeaderBackground-min.png);
   background-size: cover;
   padding-bottom: 5rem;
   border-bottom-left-radius: 80% 15%;
@@ -487,6 +487,10 @@ font-size: 1.2rem;
 }
 
 .footer-link{
+  text-decoration: none;
+}
+
+.link-decor{
   text-decoration: none;
 }
 
