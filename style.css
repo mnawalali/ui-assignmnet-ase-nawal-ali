@@ -144,7 +144,7 @@
   background: rgb(2,0,36);
   background: linear-gradient(0deg, rgba(2,0,36,1) 35%, rgba(15,23,36,1) 35%, rgba(0,212,255,1) 100%);  */
   background-image:
-    linear-gradient(to bottom, #63698a85, #0F1724),
+    linear-gradient(to bottom, #02030c85, #0F1724),
     url(HeaderBackground.png);
   background-size: cover;
   padding-bottom: 5rem;
