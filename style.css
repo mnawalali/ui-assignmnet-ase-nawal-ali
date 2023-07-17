@@ -419,6 +419,10 @@ font-size: 1.2rem;
   border: 1px solid #f4f5f7;
 }
 
+.rep{
+  display: none;
+}
+
 .blog-col {
   width: 40%;
 }
@@ -649,7 +653,15 @@ font-size: 1.2rem;
   }
 
   .blog-descr-img {
-    width: 80%;
+    width: 95%;
+  }
+
+  .rep{
+    display: block;
+  }
+
+  .orig{
+    display: none;
   }
 
   .blog-col {
