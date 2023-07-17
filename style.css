@@ -140,19 +140,11 @@
 }
 
 .header {
-  /* background-image: linear-gradient(#0F1724, transparent), url(HeaderBackground.png);
-  background: rgb(2,0,36);
-  background: linear-gradient(0deg, rgba(2,0,36,1) 35%, rgba(15,23,36,1) 35%, rgba(0,212,255,1) 100%);  */
   background-image:
     linear-gradient(to bottom, #02030c85, #08101d),
     url(HeaderBackground.png);
   background-size: cover;
   padding-bottom: 5rem;
-  /* border-radius:0 0 5% 5%;
-  -webkit-border-radius:0 0 5% 5%;
-  background:#000;
-  min-height:100px; */
-
   border-bottom-left-radius: 80% 15%;
   border-bottom-right-radius: 80% 15%;
   margin-bottom: 4rem;
@@ -164,17 +156,13 @@
   align-items: center;
   align-items: center;
   align-items: center;
-
-  /* background-color: #0F1724; */
 }
 
 .header-content {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* background-color: yellow; */
   width: 30%;
-  /* max-width: 620px; */
   text-align: center;
   gap: 1.7rem;
 }
@@ -193,7 +181,6 @@
 .header-btn-hldr {
   display: flex;
   flex-direction: row;
-  /* width: 40%; */
 }
 
 
@@ -363,10 +350,6 @@
   margin: 0;
 }
 
-.test {
-  background-color: yellow;
-}
-
 .product-feat-row {
   justify-content: space-between;
   gap: 2rem;
@@ -400,11 +383,6 @@
 
 .logo-img {
   width: 100%;
-  /* Use viewport width instead of 100% */
-
-  /* object-fit: none; */
-
-
 }
 
 .price-card {
